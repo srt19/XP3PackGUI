@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Avalonia", "Avalonia", "{0C80E1B5-1F08-44F5-BE83-32091F10F7F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XP3", "XP3", "{A4510184-A2FB-4273-942B-289ACEDD9F3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XP3", "XP3\XP3.csproj", "{AEFC4725-5017-4520-A7E3-3210E9D536ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XP3PackAvalonia", "XP3PackAvalonia\XP3PackAvalonia.csproj", "{9D879463-8F91-4984-BD50-720962AFCBB9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AEFC4725-5017-4520-A7E3-3210E9D536ED} = {AEFC4725-5017-4520-A7E3-3210E9D536ED}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEFC4725-5017-4520-A7E3-3210E9D536ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFC4725-5017-4520-A7E3-3210E9D536ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFC4725-5017-4520-A7E3-3210E9D536ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFC4725-5017-4520-A7E3-3210E9D536ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D879463-8F91-4984-BD50-720962AFCBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D879463-8F91-4984-BD50-720962AFCBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D879463-8F91-4984-BD50-720962AFCBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D879463-8F91-4984-BD50-720962AFCBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEFC4725-5017-4520-A7E3-3210E9D536ED} = {A4510184-A2FB-4273-942B-289ACEDD9F3B}
+		{9D879463-8F91-4984-BD50-720962AFCBB9} = {0C80E1B5-1F08-44F5-BE83-32091F10F7F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16FBFC15-6AD8-41D3-9709-A9869EEB84B9}
+	EndGlobalSection
+EndGlobal

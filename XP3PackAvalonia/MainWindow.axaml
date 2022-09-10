@@ -1,0 +1,33 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="200"
+        Width="400" Height="200" SizeToContent="WidthAndHeight" CanResize="False"
+        x:Class="XP3PackAvalonia.MainWindow"
+        WindowStartupLocation="CenterScreen"
+        Title="XP3Pack GUI">
+  <Grid RowDefinitions="*, *, auto" ColumnDefinitions="auto"
+        HorizontalAlignment="Center" Margin="5" VerticalAlignment="Center">
+    <StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="5" Margin="10">
+      <Button Name="Browse_In">
+        Browse
+      </Button>
+      <TextBox Name="Input_text" Watermark="Input Folder" Width="300" Height="60"
+               TextWrapping="Wrap" IsReadOnly="True" />
+    </StackPanel>
+    <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" Margin="10">
+      <Button Name="Browse_Out">
+        Browse
+      </Button>
+      <TextBox Name="Output_Text" Watermark="Output Folder" Width="300" Height="60"
+               TextWrapping="Wrap" IsReadOnly="True" />
+    </StackPanel>
+    <StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="10" Spacing="5">
+      <Button Name="Run_button" IsEnabled="False" HorizontalAlignment="Center">
+        Run
+      </Button>
+      <TextBlock Name="Status_text" Text="Ready" HorizontalAlignment="Center" />
+    </StackPanel>
+  </Grid>
+</Window>
